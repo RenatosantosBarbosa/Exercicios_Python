@@ -164,3 +164,137 @@
 #         print("Sabado")
 #     case _:
 #         print("Numero invalido")
+
+#EX11
+
+# mes = int(input("Digite um numero (1 a 12): "))
+
+# match mes:
+#     case 1:
+#         print("Janeiro")
+#     case 2:
+#         print("Fevereiro")
+#     case 3:
+#         print("Março")
+#     case 4:
+#         print("Abril")
+#     case 5:
+#         print("Maio")
+#     case 6:
+#         print("Junho")
+#     case 7:
+#         print("Julho")
+#     case 8:
+#         print("Agosto")
+#     case 9:
+#         print("Setembro")
+#     case 10:
+#         print("Outubro")
+#     case 11:
+#         print("Novembro")
+#     case 12:
+#         print("Dezembro")
+#     case _:
+#         print("Numero invalido")
+
+#EX12
+
+# num1 = float(input("Digite um numero: "))
+# num2 = float(input("Digite outro numero: "))
+# operacao = input("Operação (+, -, *, /): ")
+
+# match operacao:
+#     case "+":
+#         print(num1 + num2)
+#     case "-":
+#         print(num1 - num2)
+#     case "*":
+#         print(num1 * num2)
+#     case "/":
+#         if num2 == 0:
+#             print("Não é possivel dividir por zero.")
+#         else:
+#             print(num1 / num2)
+#     case _:
+#         print("Operação invalida")
+
+#EX13
+
+# print("------MENU------ \n1 - Celsius > Fahrenheit \n2 - Fahrenheit > Celsius \n3 - Metros > Quilômetros \n4 - Quilômetros > Metros")
+# opcao = int(input("Escolha uma opção: "))
+
+# match opcao:
+#     case 1:
+#         temp_celsius = float(input("Digite a temperatura: "))
+#         fahrenheit = (temp_celsius * 9/5) + 32
+#         print(f"{temp_celsius:.2f} Graus celsius convertido é {fahrenheit:.2f} graus fahrenheit")
+#     case 2:
+#         temp_fahrenheit = float(input("Digite a temperatura: "))
+#         celsius = (temp_fahrenheit - 32) * 5/9
+#         print(f"{temp_fahrenheit:.2f} Graus fahrenheit convertido é {celsius:.2f} graus celsius")
+#     case 3:
+#         metros = float(input("Digite o valor em metros: "))
+#         mt_conv = metros / 1000
+#         print(f"{metros:.2f} metros são {mt_conv:.2f} quilômetros")
+#     case 4:
+#         quilometros = float(input("Digite o valor em quilômetros: "))
+#         km_conv = quilometros * 1000
+#         print(f"{quilometros:.2f} em metros são {km_conv:.2f} metros")
+#     case _:
+#         print("Opção invalida")
+    
+
+#EX14
+
+# print("--ESCOLHA-DE-PERSONAGEM-- \n1 - Guerreiro \n2 - Mago \n3 - Arqueiro \n4 - Assassino")
+# opcao = int(input("Escolha a classe do personagem: "))
+
+# match opcao:
+#     case 1:
+#         print("Guerreiro")
+#         print("Vida: 100")
+#         print("Ataque: 90")
+#         print("Defesa: 100")
+#     case 2:
+#         print("Mago")
+#         print("Vida: 100")
+#         print("Ataque: 90")
+#         print("Defesa: 90")
+#     case 3:
+#         print("Arqueiro")
+#         print("Vida: 100")
+#         print("Ataque: 90")
+#         print("Defesa: 80")
+#     case 4:
+#         print("Assassino")
+#         print("Vida: 100")
+#         print("Ataque: 100")
+#         print("Defesa: 90")
+#     case _:
+#         print("Opção invalida")
+
+#EX15
+
+# nome = input("Digite o nome do aluno: ")
+# idade = int(input("Digite a idade do aluno: "))
+
+# nota1 = float(input("Nota 1: "))
+# nota2 = float(input("Nota 2: "))
+# nota3 = float(input("Nota 3: "))
+
+# media = (nota1 + nota2 + nota3) / 3
+
+# if media >= 7:
+#     situacao = "Aprovado"
+# elif media >= 5:
+#     situacao = "Recuperação"
+# else:
+#     situacao = "Reprovado"
+
+# print(f"\nNome: {nome}")
+# print(f"Idade: {idade}")
+# print(f"Media: {media:.2f}")
+# print(f"Situação: {situacao}")
+
+#EX16
+
